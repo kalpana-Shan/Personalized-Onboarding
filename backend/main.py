@@ -69,12 +69,12 @@ app.add_middleware(
 app.include_router(onboard.router, prefix="/api/v1", tags=["onboarding"])
 app.include_router(analytics.router, prefix="/api/v1", tags=["analytics"])
 
-
+c
 # Standalone WebSocket endpoint at root level (no prefix)
 @app.websocket("/ws/session/{session_id}")
 async def websocket_root(websocket: WebSocket, session_id: str):
     """
-    WebSocket endpoint for real-time session tracking.
+    WebSocket endpoint for real-time session trackingv
     This endpoint is at root level to avoid prefix issues.
     """
     # Accept the connection without any authentication

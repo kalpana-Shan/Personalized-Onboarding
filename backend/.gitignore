@@ -1,0 +1,15 @@
+# Secret files — NEVER upload these
+.env
+firebase_key.json
+*serviceAccountKey*.json
+*firebase-adminsdk*.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Logs
+*.log

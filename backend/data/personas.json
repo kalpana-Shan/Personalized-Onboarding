@@ -1,0 +1,189 @@
+{
+  "personas": [
+    {
+      "id": "slow-explorer",
+      "name": "Slow Explorer",
+      "description": "Prefers to take things step by step. Likes learning at a comfortable pace with simple, clear guidance.",
+      "feature_vector": [0.7, 0.3, 0.4, 0.3],
+      "highlight_features": ["getting_started", "feature_tour", "examples"],
+      "content_tone": "friendly",
+      "first_task": "intro_walkthrough",
+      "skip_modules": ["quick_start", "advanced_topics"],
+      "recommendations": [
+        "Start with the intro video (2 minutes)",
+        "Join the beginner community",
+        "Follow the guided checklist"
+      ]
+    },
+    {
+      "id": "fast-beginner",
+      "name": "Fast Beginner",
+      "description": "Eager to get started quickly. Wants to jump in and explore without extensive setup.",
+      "feature_vector": [0.4, 0.8, 0.6, 0.4],
+      "highlight_features": ["quick_actions", "one_click_setup", "project_templates"],
+      "content_tone": "minimal",
+      "first_task": "quick_start",
+      "skip_modules": ["deep_dive", "documentation_tour"],
+      "recommendations": [
+        "Launch a quick-start project template",
+        "Enable keyboard shortcuts for faster navigation",
+        "Try the one-click deployment feature"
+      ]
+    },
+    {
+      "id": "steady-builder",
+      "name": "Steady Builder",
+      "description": "Wants to build something meaningful. Prefers structured learning with practical examples.",
+      "feature_vector": [0.3, 0.5, 0.5, 0.6],
+      "highlight_features": ["documentation", "examples", "team_workspace"],
+      "content_tone": "friendly",
+      "first_task": "build_first_project",
+      "skip_modules": ["marketing_intro", "quick_start"],
+      "recommendations": [
+        "Read the comprehensive documentation",
+        "Explore the code examples repository",
+        "Set up your team workspace"
+      ]
+    },
+    {
+      "id": "expert-builder",
+      "name": "Expert Builder",
+      "description": "Experienced developer who wants full control. Prefers advanced features and integrations.",
+      "feature_vector": [0.2, 0.7, 0.8, 0.9],
+      "highlight_features": ["api_docs", "integrations", "advanced_settings"],
+      "content_tone": "technical",
+      "first_task": "configure_advanced",
+      "skip_modules": ["intro_tour", "basic_tutorial", "beginner_guide"],
+      "recommendations": [
+        "Review the API documentation",
+        "Set up advanced workspace integrations",
+        "Configure your deployment settings"
+      ]
+    },
+    {
+      "id": "expert-explorer",
+      "name": "Expert Explorer",
+      "description": "Technical user who wants to explore all possibilities. Loves discovering new features and integrations.",
+      "feature_vector": [0.6, 0.5, 0.6, 0.8],
+      "highlight_features": ["api_docs", "integrations", "customization"],
+      "content_tone": "technical",
+      "first_task": "explore_advanced",
+      "skip_modules": ["basic_onboarding", "intro_walkthrough"],
+      "recommendations": [
+        "Browse the complete API reference",
+        "Explore integration possibilities",
+        "Customize your workspace configuration"
+      ]
+    },
+    {
+      "id": "hands-on-builder",
+      "name": "Hands-On Builder",
+      "description": "Wants to create something tangible immediately. Prefers jumping in and building over reading documentation.",
+      "feature_vector": [0.2, 0.9, 0.3, 0.9],
+      "highlight_features": ["code_editor", "project_templates", "deployment"],
+      "content_tone": "technical",
+      "first_task": "create_project",
+      "skip_modules": ["marketing_intro", "community_tour", "documentation_tour"],
+      "recommendations": [
+        "Start a new project from a template",
+        "Try the code editor features",
+        "Deploy your first project"
+      ]
+    },
+    {
+      "id": "curious-explorer",
+      "name": "Curious Explorer",
+      "description": "Wants to understand the product before committing. Prefers to explore and discover features.",
+      "feature_vector": [0.7, 0.3, 0.6, 0.4],
+      "highlight_features": ["feature_tour", "documentation", "examples"],
+      "content_tone": "friendly",
+      "first_task": "explore_features",
+      "skip_modules": ["quick_start", "project_templates"],
+      "recommendations": [
+        "Take the feature tour",
+        "Browse the documentation",
+        "Check out example projects"
+      ]
+    },
+    {
+      "id": "fast-learner",
+      "name": "Fast Learner",
+      "description": "Wants to learn quickly and efficiently. Prefers concise, focused content.",
+      "feature_vector": [0.5, 0.5, 0.4, 0.7],
+      "highlight_features": ["quick_tips", "video_tutorials", "cheat_sheets"],
+      "content_tone": "minimal",
+      "first_task": "quick_start",
+      "skip_modules": ["deep_dive", "advanced_topics", "community"],
+      "recommendations": [
+        "Watch the quick start video",
+        "Download the cheat sheet",
+        "Try the quick tips"
+      ]
+    },
+    {
+      "id": "team-collaborator",
+      "name": "Team Collaborator",
+      "description": "Looking to collaborate with team members. Prefers collaborative features and team workflows.",
+      "feature_vector": [0.4, 0.4, 0.9, 0.5],
+      "highlight_features": ["team_workspace", "shared_projects", "comments", "invite_team"],
+      "content_tone": "friendly",
+      "first_task": "invite_team",
+      "skip_modules": ["solo_tutorial", "personal_setup"],
+      "recommendations": [
+        "Invite your first team member",
+        "Create a shared project",
+        "Set up team workspace"
+      ]
+    },
+    {
+      "id": "security-focused",
+      "name": "Security Focused",
+      "description": "Concerned about security and compliance. Wants detailed security settings and controls.",
+      "feature_vector": [0.8, 0.3, 0.2, 0.6],
+      "highlight_features": ["security_settings", "access_control", "audit_logs", "compliance"],
+      "content_tone": "detailed",
+      "first_task": "configure_security",
+      "skip_modules": ["quick_start", "templates", "automation"],
+      "recommendations": [
+        "Review security settings",
+        "Set up access control",
+        "Configure audit logging"
+      ]
+    },
+    {
+      "id": "creative-experimenter",
+      "name": "Creative Experimenter",
+      "description": "Wants to experiment and try new things. Prefers creative tools and customization.",
+      "feature_vector": [0.6, 0.7, 0.5, 0.5],
+      "highlight_features": ["customization", "themes", "plugins", "api_access"],
+      "content_tone": "friendly",
+      "first_task": "customize_workspace",
+      "skip_modules": ["onboarding_checklist", "required_setup"],
+      "recommendations": [
+        "Explore customization options",
+        "Try different themes",
+        "Browse available plugins"
+      ]
+    },
+    {
+      "id": "goal-driven-achiever",
+      "name": "Goal Driven Achiever",
+      "description": "Driven by specific goals and outcomes. Wants clear paths to achieve results.",
+      "feature_vector": [0.3, 0.8, 0.3, 0.8],
+      "highlight_features": ["goals_dashboard", "progress_tracking", "templates", "automation"],
+      "content_tone": "technical",
+      "first_task": "set_goals",
+      "skip_modules": ["exploration", "community", "advanced_features"],
+      "recommendations": [
+        "Set your first goal",
+        "Track your progress",
+        "Use automation templates"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "2.0.0",
+    "last_updated": "2026-03-24",
+    "description": "Persona archetypes for the Intent-First Onboarding Engine. Feature vector format: [domain_score, urgency_score, style_score, skill_score]"
+  }
+}
